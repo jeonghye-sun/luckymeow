@@ -1,0 +1,1041 @@
+/*
+font-family: 'NanumPen';
+>>나눔손글씨 펜 웹 폰트
+
+
+{font-family: 'SUITE', sans-serif;}
+>>스위트 웹폰트
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+>>마켓산스 웹폰트
+
+*/
+@font-face {
+    font-family: '';
+    src: url('GmarketSansBold.eot');
+    src: url('GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('GmarketSansMedium.eot');
+    src: url('GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('GmarketSansLight.eot');
+    src: url('GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans TTF';
+    src: url('GmarketSansTTFBold.eot');
+    src: url('GmarketSansTTFBold.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansTTFBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans TTF';
+    src: url('GmarketSansTTFLight.eot');
+    src: url('GmarketSansTTFLight.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansTTFLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans TTF';
+    src: url('GmarketSansTTFMedium.eot');
+    src: url('GmarketSansTTFMedium.eot?#iefix') format('embedded-opentype'),
+        url('GmarketSansTTFMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'SUITE', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+    min-width: 1450px;
+}
+
+/*headerd:\정혜선\혜선 작업\럭키 미야우\정혜선-럭키 미야우 웹 디자인*/
+#header {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#header_box {
+    position: relative;
+}
+
+.button1>.nav>.sub_box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: url(../images/sub_menu.png) no-repeat center top;
+    height: 345px;
+    display: none;
+    z-index: 10;
+}
+
+/*sub*/
+.sub li {
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.sub li:nth-child(1) {
+    padding-top: 50px;
+}
+
+.sub li a:hover {
+    color: #A7D654;
+    text-decoration: underline;
+
+}
+
+.sub {
+    display: none;
+    padding: 20px 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+.sub>li>a {
+    font-size: 16px;
+
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+.button1>.nav {
+    display: flex;
+
+}
+
+.button1>.nav>li {
+    background-color: #209C52;
+    padding: 5px 0px;
+}
+
+.button1>ul>li>a {
+    color: #fff;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+}
+
+.button1>ul>li a:hover {
+    color: #A7D654;
+    transition: all 1s;
+}
+
+.button1>ul {
+    padding-left: 70px;
+    border-radius: 19.5px;
+    padding-right: 20px;
+    background-color: #209C52;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.nav>li {
+    text-align: center;
+    padding: 20px 0;
+    width: 165px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.nav>li>a:hover {
+    color: #009223;
+}
+
+
+
+
+
+.button2 ul {
+    display: flex;
+}
+
+.button2 ul li {
+    padding: 10px;
+}
+
+.button2_box a {
+    background-color: #209C52;
+    color: #fff;
+    font-weight: bold;
+    padding: 9.5px 30px;
+    border-radius: 19.5px;
+}
+
+.button2_box a:hover {
+    color: #A7D654;
+    transition: all 1s;
+}
+
+
+
+
+
+
+/*슬라이드 버튼-----------------------------------------*/
+.sd_img .swiper-button-next,
+.sd_img .swiper-button-prev {
+    color: #fff;
+}
+
+.sd_img .swiper-pagination-bullet {
+    background: #fff;
+}
+
+
+
+
+
+/*menu-----------------------------------------*/
+
+
+.menu {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#manu_box {
+    position: relative;
+}
+
+#manu_title {
+    position: absolute;
+    width: 1320px;
+    padding-top: 150px;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    color: #fff;
+
+}
+
+#manu_title .tabs li a {
+    font-family: 'Gmarket Sans TTF';
+    font-size: 18px;
+    color: #fff;
+
+}
+
+#manu_title .tabs li a:hover {
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+
+}
+
+#manu_title .tabs li {
+    padding-bottom: 25px;
+}
+
+#manu_title .tabs .active a {
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+}
+
+#manu_title h1 {
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    font-size: 70px;
+    padding-bottom: 80px;
+}
+
+#manu_title h2 {
+    font-family: 'Gmarket Sans TTF';
+    font-weight: 300;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.menu_title {
+    padding: 30px 120px;
+}
+
+
+#tab2 {
+    color: #209C52;
+}
+
+#tab1,
+#tab3,
+#tab4 {
+    color: #DE6F01;
+}
+
+.menu_sub {
+    width: 50%;
+}
+
+.tab_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_sub {
+    padding-left: 120px;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.menu_sub ul {
+    display: flex;
+    padding-top: 25px;
+
+}
+
+.menu_sub ul li {
+    padding-right: 20px;
+    text-align: center;
+}
+
+.menu_sub h3 {
+    padding-bottom: 10px;
+    border-bottom: #DE6F01 solid 2px;
+}
+
+.menu_sub .line_color {
+    padding-bottom: 10px;
+    border-bottom: #209C52 solid 2px;
+}
+
+
+.tab_content h2 {
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.menu_sub>img {
+    padding-top: 80px;
+    padding-bottom: 120px;
+
+}
+
+
+#tab1 .menu_sub>img {
+    padding-left: 20px;
+}
+
+#tab2 .menu_sub>img {
+    padding-left: 50px;
+}
+
+#tab3 .menu_sub>img {
+    padding-left: 120px;
+}
+
+#tab4 .menu_sub>img {
+    padding-left: 80px;
+}
+
+
+
+#tab1 {
+    background: url(../images/signature.jpg) no-repeat center;
+    height: 970px;
+}
+
+#tab2 {
+    background: url(../images/beverage.jpg) no-repeat center;
+    height: 970px;
+}
+
+#tab3 {
+    background: url(../images/coffee.jpg) no-repeat center;
+    height: 970px;
+}
+
+#tab4 {
+    background: url(../images/dessert.jpg) no-repeat center;
+    height: 970px;
+}
+
+
+
+/*dessert-----------------------------------------*/
+#box1 {
+    position: relative;
+}
+
+#dessert_bg {
+    overflow: hidden;
+}
+
+.dessert_prev {
+    left: -20px;
+}
+
+.dessert_prev::after {
+    content: url(../images/dessert_prev.png);
+}
+
+.dessert_next {
+    right: -20px;
+}
+
+.dessert_next::after {
+    content: url(../images/dessert_next.png);
+}
+
+
+
+
+#dessert {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#dessert .text h1 {
+    font-size: 64px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    color: #209C52;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#dessert .text {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+
+
+#dessert .text p {
+    color: #209C52;
+}
+
+#dessert .text p span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text_box {
+    padding-top: 120px;
+    width: 7920px;
+    /*ul길이의 두배!*/
+    display: flex;
+    animation: box 40s linear infinite;
+
+}
+
+.text_box ul {
+    display: flex;
+    width: 3960px;
+    /*li크기를 전부합한것보다 더 여유있게.*/
+    justify-content: space-around;
+}
+
+.text_box ul li {
+    width: 1320px;
+}
+
+/*width를 본인에 맞게 수정하여 사용하세요!*/
+.text_box ul li img {
+    width: 100%;
+}
+
+
+
+/*슬라이드에 호버시 애니메이션이 멈추게 만듦*/
+
+@keyframes box {
+
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -3960px;
+        /*slide_inner의 ul길이와 동일하게 - 설정합니다!*/
+    }
+}
+
+
+
+
+.dessert_menu p {
+    margin-top: 35px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dessert_menu .orange_text {
+    color: #DE6F01;
+
+}
+
+.dessert_menu .green_text {
+    color: #209C52;
+
+}
+
+
+
+
+/*line-----------------------------------------*/
+.line {
+    border-bottom: 3px solid #209C52;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/*sub_banner-----------------------------------------*/
+
+
+#sub_banner {
+    background: url(../images/sub_banner.jpg) no-repeat center center fixed;
+    height: 500px;
+    background-size: 1920px;
+    overflow: hidden;
+}
+
+
+.text_box1 {
+    padding-top: 50px;
+    width: 24864px;
+    /*ul길이의 두배!*/
+    display: flex;
+    animation: boxs 20s linear infinite;
+
+}
+
+.text_box1 ul {
+    display: flex;
+    width: 12432px;
+    /*li크기를 전부합한것보다 더 여유있게.*/
+    justify-content: space-around;
+}
+
+.text_box1 ul li {
+    width: 4144px;
+}
+
+/*width를 본인에 맞게 수정하여 사용하세요!*/
+.text_box1 ul li img {
+    width: 100%;
+}
+
+@keyframes boxs {
+
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -12432px;
+        /*slide_inner의 ul길이와 동일하게 - 설정합니다!*/
+    }
+}
+
+
+
+
+/*slide-----------------------------------------*/
+
+#slide {
+    background: url(../images/shop_bg.jpg) no-repeat;
+    height: 970px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.slide_inner {
+    width: 15360px;
+    /*ul길이의 두배!*/
+    display: flex;
+    animation: rotate 25s linear infinite;
+    padding-top: 137px;
+
+}
+
+.slide_inner ul {
+    display: flex;
+    width: 7680px;
+    /*li크기를 전부합한것보다 더 여유있게.*/
+    justify-content: space-around;
+}
+
+.slide_inner ul li {
+    width: 1920px;
+}
+
+/*width를 본인에 맞게 수정하여 사용하세요!*/
+.slide_inner ul li img {
+    width: 100%;
+}
+
+.slide_inner:hover {
+    animation-play-state: paused;
+}
+
+/*슬라이드에 호버시 애니메이션이 멈추게 만듦*/
+
+#slide p {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: rotate(-50%);
+    cursor: pointer;
+}
+
+@keyframes rotate {
+
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -7680px;
+        /*slide_inner의 ul길이와 동일하게 - 설정합니다!*/
+    }
+}
+
+
+
+/*event-----------------------------------------*/
+#event {
+    position: relative;
+
+}
+
+.event_title {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    transform: translateX(-670px);
+}
+
+.event_title h1 {
+    font-size: 95px;
+    line-height: 110px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+}
+
+.event_title p {
+    font-size: 20px;
+}
+
+.tabs1 {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(370px);
+
+}
+
+#tab5 {
+    background: url(../images/event1.jpg) no-repeat center;
+    height: 970px;
+}
+
+#tab6 {
+    background: url(../images/event2.jpg) no-repeat center;
+    height: 970px;
+}
+
+#tab7 {
+    background: url(../images/event3.jpg) no-repeat center;
+    height: 970px;
+}
+
+.tabs1 li img {
+    transition: all 0.5s;
+}
+
+.tabs1 li img:hover {
+    transform: translateY(-20px);
+}
+
+
+
+
+.lo_box {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(20px);
+    width: 239px;
+    height: 239px;
+}
+
+.arrow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.circle {
+    animation: circle 6s infinite linear;
+}
+
+
+
+
+/*video------------------------------------------*/
+
+#video .text h1 {
+    font-size: 64px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    color: #209C52;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#video .text {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+#video .text p {
+    color: #209C52;
+}
+
+#video .text p span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#video {
+    background-color: #FFFAE5;
+    height: 970px;
+
+}
+
+.video_box {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+/*instagram--------------------------------------*/
+
+#instagram {
+    width: 1320px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    padding-top: 40px;
+    box-sizing: border-box;
+
+}
+
+.instagram_box {}
+
+.instagram_box .text {
+    justify-content: center;
+}
+
+.instagram_box .text h1 {
+    font-size: 64px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    color: #209C52;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.instagram_box .text {
+    padding-top: 120px;
+    padding-bottom: 90px;
+    display: flex;
+
+}
+
+.instagram_box .text p {
+    padding-right: 15px;
+}
+
+.instagram_box ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 160px;
+
+}
+
+.instagram_box ul li:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+.instagram_box ul li img {
+    transition: all 0.5s;
+}
+
+.instagram_box ul li {
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer----------------------------------*/
+
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/footer_bg.png) no-repeat center;
+    height: 708px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+
+
+
+}
+
+.footer_inner {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .f_ic {
+    display: flex;
+    padding-bottom: 70px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+#footer .f_ic li {
+    padding: 0 30px;
+}
+
+.f_text {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .f_text li {
+    padding: 0 15px;
+}
+
+#footer ul li span {
+    font-weight: 800;
+    color: #A7D654;
+}
+
+#footer ul li {
+    font-weight: 800;
+}
+
+#footer p span {
+    font-weight: 800;
+    color: #A7D654;
+}
+
+#footer h2 {
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
+#footer>p,
+.f_text {
+    padding-bottom: 15px;
+}
+
+
+/*푸터 포인트*/
+.p_1 {
+    position: absolute;
+    top: -50px;
+    left: 200px;
+    animation: foo 6s infinite linear;
+}
+
+.p_2 {
+    position: absolute;
+    top: 0px;
+    right: 160px;
+    animation: foo1 2s linear infinite alternate
+}
+
+.p_3 {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    animation: foo1 2s linear infinite alternate
+}
+
+.p_4 {
+    position: absolute;
+    top: 350px;
+    right: 40px;
+    animation: foo 6s infinite linear;
+}
+
+@keyframes foo {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes foo1 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-50px);
+    }
+}
+
+
+
+/*탑버튼-----------------------------*/
+.bg {
+    transition: all 0.5s;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.bg:hover {
+    transform: translateY(-15px);
+
+}
+
+.bg a {
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    width: 51px;
+}
