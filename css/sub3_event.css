@@ -371,7 +371,7 @@ body {
 
 
 #community_box {
-    width: 1920px;
+    background: url(../images/event_bg.jpg) no-repeat center;
     height: 330px;
 }
 
