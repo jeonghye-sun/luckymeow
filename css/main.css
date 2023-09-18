@@ -588,7 +588,7 @@ body {
 #sub_banner {
     background: url(../images/sub_banner.jpg) no-repeat center center fixed;
     height: 500px;
-    background-size: 1920px;
+    background-size: 100%;
     overflow: hidden;
 }
 
@@ -661,7 +661,7 @@ body {
 }
 
 .slide_inner ul li {
-    width: 1920px;
+    width: 100%;
 }
 
 /*width를 본인에 맞게 수정하여 사용하세요!*/
@@ -906,7 +906,7 @@ body {
 #footer {
     width: 100%;
     margin: 0 auto;
-    background: url(../images/footer_bg.png) no-repeat center;
+    background: url(../images/footer_bg.png) no-repeat center bottom;
     height: 708px;
     text-align: center;
     font-size: 16px;

@@ -116,6 +116,8 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #333;
+    min-width: 1450px;
+
 }
 
 
@@ -276,7 +278,7 @@ body {
     background: url(../images/sub1_brand_story/sub1_story_bg.jpg) center top no-repeat;
     width: 100%;
     height: 1878px;
-    position: relative;
+
 
 }
 
@@ -284,15 +286,15 @@ body {
 #brand_story {
     width: 1320px;
     margin: 0 auto;
-    position: absolute;
-    top: 250px;
-    right: 200px;
+    padding-top: 310px;
+
+
 
 }
 
 #brand_story p {
-    padding: 170px;
-    padding-left: 250px;
+    padding-top: 150px;
+    padding-left: 360px;
 }
 
 
@@ -329,7 +331,7 @@ h1 {
 .lo_box {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 30%;
     transform: translateX(350px);
     width: 320px;
     height: 320px;
@@ -361,13 +363,13 @@ h1 {
 #logo_box {
     width: 1320px;
     margin: 0 auto;
-    text-align: center;
+
 }
 
 .logo {
     width: 1002px;
     margin: 0 auto;
-
+    text-align: center;
 }
 
 .logo p {
@@ -427,11 +429,12 @@ h1 {
 
 /*font_box---------------------------------*/
 #font_box {
-    background-color: #007148;
+    background: url(../images/sub1_brand_story/sub1_story_color.png) #007148 center no-repeat;
     padding: 140px 0;
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
-    text-align: center;
+    height: 900px;
+
 }
 
 
@@ -547,7 +550,7 @@ h1 {
 #direction {
     width: 1320px;
     margin: 0 auto;
-    text-align: center;
+
     padding-bottom: 300px;
     padding-top: 200px;
 }
@@ -567,12 +570,18 @@ h1 {
 
 
 
+#direction .if {
+    text-align: center;
+}
+
+
+
 /*footer----------------------------------*/
 
 #footer {
     width: 100%;
     margin: 0 auto;
-    background: url(../images/footer_bg.png) no-repeat center;
+    background: url(../images/footer_bg.png) no-repeat center bottom;
     height: 708px;
     text-align: center;
     font-size: 16px;

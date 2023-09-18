@@ -294,7 +294,10 @@ body {
 
 }
 
-
+.tabs>.on>a {
+    padding-bottom: 5px;
+    border-bottom: #DE6F01 solid 3px;
+}
 
 .tabs>li>a:hover {
     padding-bottom: 5px;
@@ -375,7 +378,7 @@ body {
 #footer {
     width: 100%;
     margin: 0 auto;
-    background: url(../images/footer_bg.png) no-repeat center;
+    background: url(../images/footer_bg.png) no-repeat center bottom;
     height: 708px;
     text-align: center;
     font-size: 16px;

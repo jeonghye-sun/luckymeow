@@ -116,7 +116,10 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #333;
+    min-width: 1450px;
+
 }
+
 
 
 
@@ -269,7 +272,7 @@ body {
 
 /*sub1_mascot------------------------------------*/
 #sub1_mascot {
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -405,7 +408,7 @@ h1 {
 #design_box {
     background: url(../images/sub1_brand_story/design_bg.jpg) no-repeat center center fixed;
     height: 500px;
-    background-size: 1920px;
+    background-size: 100%;
     overflow: hidden;
     text-align: center;
     margin-top: 110px;
@@ -436,7 +439,7 @@ h1 {
 #font_box {
     background-color: #007148;
     padding: 140px 0;
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
